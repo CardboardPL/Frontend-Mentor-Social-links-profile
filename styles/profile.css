@@ -1,0 +1,33 @@
+.user-profile {
+  background-color: hsl(0, 0%, 12%);
+  width: 90%;
+  padding: 30px 40px;
+}
+
+.user-header {
+  text-align: center;
+}
+
+.user-header * {
+  margin: 0;
+}
+
+.user-avatar {
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-size: 1.65rem;
+  margin: 20px 0 10px 0;
+}
+
+.user-address {
+  font-style: normal;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  margin: 0 0 20px 0;
+}
