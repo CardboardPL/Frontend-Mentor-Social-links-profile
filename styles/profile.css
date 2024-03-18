@@ -57,7 +57,7 @@
   ;
 }
 
-li:hover {
+li:hover, li:focus-within {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 8%);
 }
