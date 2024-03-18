@@ -1,9 +1,13 @@
 .user-profile {
   background-color: hsl(0, 0%, 12%);
   width: 90%;
-  padding: 30px 40px;
+  max-width: 390px;
+  padding: 40px 40px 30px 40px;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
 }
 
+/* User Profile Header Styles */
 .user-header {
   text-align: center;
 }
@@ -22,7 +26,7 @@
 
 .user-name {
   font-size: 1.65rem;
-  margin: 20px 0 10px 0;
+  margin: 24px 0 10px 0;
 }
 
 .user-address {
@@ -30,4 +34,48 @@
   font-weight: 600;
   color: hsl(75, 94%, 57%);
   margin: 0 0 20px 0;
+}
+/* User Profile Header Styles */
+
+/* Social Links Styles */
+.social-links-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 24px;
+}
+
+.social-links-list li {
+  background-color: hsl(0, 0%, 20%);
+  padding: 16px;
+  text-align: center;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 
+    background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out
+  ;
+}
+
+li:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+li:last-child {
+  margin: 0;
+}
+
+.social-links-list a {
+  font-size: inherit;
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+}
+/* Social Links Styles */
+
+@media (max-width: 450px) {
+  .user-profile {
+    padding: 30px 25px 20px 25px;
+  }
 }
